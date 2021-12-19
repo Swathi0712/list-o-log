@@ -1,0 +1,97 @@
+body {
+    background: lightyellow;
+    font: 18px Arial, sans-serif;
+    padding: 100px;
+    text-decoration-color: burlywood;
+    text-emphasis-color:green ;
+}
+h1 {
+    color: orange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(20, 64, 100);
+    font-family: sans-serif;
+    padding-top: -5px;
+}
+
+ul{
+    color: rgb(7, 28, 29);
+    font-family: sans-serif;
+    width: 1000px; 
+    list-style:square; 
+}
+
+li {
+    margin-bottom: 15px;
+
+}
+
+p{
+    color: coral;
+}
+
+.todo-input{
+    padding: 10px;
+    width: 300px;
+    font-size: 13px;
+    height: 15px;
+    margin-top: -20px;
+}
+
+.todo-button{
+    border: 2px solid green;
+    background-color: rgb(62, 161, 37);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.todo-button:hover{
+
+    background-color: RoyalBlue;
+}
+
+.delete-btn{
+    border: 2px solid rgb(157, 176, 182);
+    background-color:rgb(158, 82, 65);
+    color: white;
+    padding: 10px 10px;
+    font-size: 7px;
+    cursor: pointer;
+    position: absolute;
+    right: 900px;
+    vertical-align: middle;
+    width: 50px;
+    text-align: center;
+}
+
+.delete-btn:hover {
+  background-color: RoyalBlue;
+}
+
+.submit-btn{
+    border: 2px solid rgb(157, 176, 182);
+    background-color: rgb(66, 57, 48);
+    color: white;
+    padding: 10px 10px;
+    font-size: 7px;
+    cursor: pointer;   
+    position:absolute;
+    right: 950px;
+    vertical-align: middle;
+    width: 25px;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: RoyalBlue;
+  }
+
+.done{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
